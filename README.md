@@ -1,4 +1,6 @@
-Kotlin Hello World Demo
-=======================
+Kotlin Http Client Fuel Demo
+============================
 
-Hello world from kotlin. Open it in IDE and run `Hello.kt`
+How to send http request with [Fuel](https://github.com/kittinunf/Fuel).
+
+Run `Hello.kt` in your IDE.

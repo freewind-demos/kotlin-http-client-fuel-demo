@@ -1,7 +1,8 @@
 package example
 
-fun main(args: Array<String>) {
-    println(hello("Kotlin"))
-}
+import com.github.kittinunf.fuel.Fuel
 
-fun hello(name: String): String = "Hello, $name!"
+fun main(args: Array<String>) {
+    val result = Fuel.get("http://httpbin.org/get").responseString()
+    println(result)
+}
